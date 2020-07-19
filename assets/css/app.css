@@ -45,18 +45,33 @@ body {
   height: 1em;
 }
 
+.check-list {
+  padding: 0;
+  margin: 0;
+  margin-left: 10px;
+  line-height: 1.75;
+  list-style-type: none;
+}
+.check {
+  /* background: url('../images/custom-list-check.png') no-repeat right 35% bottom 45%; */
+    background: url('../images/custom-list-check.png') no-repeat left 70%;
+    padding-left: 25px;
+}
 #top-hero {
-  background-image: url('../images/wood-deck-faded.png');
+  background-image: url('../images/deck.png');
+  background-position: center;
   background-repeat: no-repeat;
 }
 
 #center-hero {
   background-image: url('../images/wood-bg.png');
-  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: repeat-y;
 }
 
 #leads-form {
   background-image: url('../images/lead-form-background.png');
+  background-position: center;
   background-repeat: no-repeat;
 }
 
