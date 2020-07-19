@@ -3,7 +3,9 @@
 /* Lato & Montserrat */
 body {
   font-family: 'Lato', sans-serif;
-  --light-gold-color:#9F7857;
+  --brown-color: #9f7857;
+  --gold-color: #fffce9;
+  --blue-color:#0361B8;
 }
 
 .m-font {
@@ -11,15 +13,15 @@ body {
 }
 
 .text-brown {
-  color: var(--light-gold-color);
+  color: var(--brown-color);
 }
 
 .text-dark-brown {
-  color: #5F3310
+  color: #5f3310;
 }
 
-.text-primary {
-  color: #0361b8;
+.text-blue {
+  color: var(--blue-color);
 }
 
 .text-white {
@@ -27,16 +29,16 @@ body {
 }
 
 .text-gold {
-  color: #fffce9;
+  color: var(--gold-color);
 }
 
 .border-gold {
-  border-color: #fffce9;
+  border-color: var(--gold-color);
   border-width: 1px;
 }
 
 .border-brown {
-  border-color: var(--light-gold-color);
+  border-color: var(--brown-color);
   border-width: 1px;
 }
 
@@ -44,43 +46,37 @@ body {
   width: 1em;
   height: 1em;
 }
-
-.check-list {
-  padding: 0;
-  margin: 0;
-  margin-left: 10px;
-  line-height: 1.75;
-  list-style-type: none;
-}
-
 .check {
-    background: url('../images/custom-list-check.png') no-repeat left 60%;
-    padding-left: 25px;
+  background: url('../images/custom-list-check.png') no-repeat left 60%;
+  padding-left: 25px;
 }
-
 .bg-blue {
-  background-color: #0361B8;
+  background-color: var(--blue-color);
   color: white;
 }
-
 #top-hero {
   background-image: url('../images/deck.png');
   background-position: center;
   background-repeat: no-repeat;
 }
-
 #center-hero {
   background-image: url('../images/wood-bg.png');
   background-position: center;
   background-repeat: repeat-y;
 }
-
 #leads-form {
   background-image: url('../images/lead-form-background.png');
   background-position: center;
   background-repeat: no-repeat;
 }
+#form-card {
+  background-image: url('../images/mask-cloud.png');
+  background: linear-gradient(#91caff, #91caff);
+  background-position: center;
+  background-repeat: no-repeat;
+}
 #footer {
-  background-color: #22170F;
-  color: var(--light-gold-color);
+  background-color: #22170f;
+  color: var(--brown-color);
+  text-decoration: none;
 }
