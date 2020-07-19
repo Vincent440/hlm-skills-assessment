@@ -1,9 +1,9 @@
 /* fonts used */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
 /* Lato & Montserrat */
-
 body {
   font-family: 'Lato', sans-serif;
+  --light-gold-color:#9F7857;
 }
 
 .m-font {
@@ -11,11 +11,11 @@ body {
 }
 
 .text-brown {
-  color: #9f7857;
+  color: var(--light-gold-color);
 }
 
 .text-dark-brown {
-  color: #9f7857;
+  color: #5F3310
 }
 
 .text-primary {
@@ -36,7 +36,7 @@ body {
 }
 
 .border-brown {
-  border-color: #9f7857;
+  border-color: var(--light-gold-color);
   border-width: 1px;
 }
 
@@ -52,11 +52,17 @@ body {
   line-height: 1.75;
   list-style-type: none;
 }
+
 .check {
-  /* background: url('../images/custom-list-check.png') no-repeat right 35% bottom 45%; */
-    background: url('../images/custom-list-check.png') no-repeat left 70%;
+    background: url('../images/custom-list-check.png') no-repeat left 60%;
     padding-left: 25px;
 }
+
+.bg-blue {
+  background-color: #0361B8;
+  color: white;
+}
+
 #top-hero {
   background-image: url('../images/deck.png');
   background-position: center;
@@ -74,8 +80,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
-
-#contact-hero {
-  background-color: #0361B8;
-  color: white;
+#footer {
+  background-color: #22170F;
+  color: var(--light-gold-color);
 }
