@@ -1,0 +1,66 @@
+/* fonts used */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
+/* Lato & Montserrat */
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.m-font {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text-brown {
+  color: #9f7857;
+}
+
+.text-dark-brown {
+  color: #9f7857;
+}
+
+.text-primary {
+  color: #0361b8;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-gold {
+  color: #fffce9;
+}
+
+.border-gold {
+  border-color: #fffce9;
+  border-width: 1px;
+}
+
+.border-brown {
+  border-color: #9f7857;
+  border-width: 1px;
+}
+
+.hammer-icon {
+  width: 1em;
+  height: 1em;
+}
+
+#top-hero {
+  background-image: url('../images/wood-deck-faded.png');
+  background-repeat: no-repeat;
+}
+
+#center-hero {
+  background-image: url('../images/wood-bg.png');
+  background-repeat: no-repeat;
+}
+
+#leads-form {
+  background-image: url('../images/lead-form-background.png');
+  background-repeat: no-repeat;
+}
+
+#contact-hero {
+  background-color: #0361B8;
+  color: white;
+}
