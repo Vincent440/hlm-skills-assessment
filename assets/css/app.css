@@ -4,55 +4,54 @@
 body {
   font-family: 'Lato', sans-serif;
   --brown-color: #9f7857;
+  --blue-color: #0361b8;
   --gold-color: #fffce9;
-  --blue-color:#0361B8;
 }
-
 .m-font {
   font-family: 'Montserrat', sans-serif;
 }
-
 .text-brown {
   color: var(--brown-color);
 }
-
-.text-dark-brown {
-  color: #5f3310;
-}
-
 .text-blue {
   color: var(--blue-color);
 }
-
-.text-white {
-  color: #ffffff;
-}
-
 .text-gold {
   color: var(--gold-color);
 }
-
-.border-gold {
-  border-color: var(--gold-color);
+.text-dark-brown {
+  color: #5f3310;
+}
+.text-white {
+  color: #ffffff;
+}
+.bg-blue {
+  background-color: var(--blue-color);
+  color: white;
+}
+.border-dark-gold {
+  border-color: #e8d5bc;
   border-width: 1px;
 }
-
 .border-brown {
   border-color: var(--brown-color);
   border-width: 1px;
 }
-
 .hammer-icon {
   width: 1em;
   height: 1em;
 }
 .check {
-  background: url('../images/custom-list-check.png') no-repeat left 60%;
-  padding-left: 25px;
+  background: url('../images/custom-list-check.png') no-repeat left 50%;
+  padding-left: 20px;
+  line-height: 2;
 }
-.bg-blue {
-  background-color: var(--blue-color);
-  color: white;
+#form-heading {
+  /* #004E96 */
+  color:white;
+  font-weight: bold;
+  font-size: 1.3em;
+  text-shadow: 0px 2px 6px #004e96;
 }
 #top-hero {
   background-image: url('../images/deck.png');
@@ -70,8 +69,10 @@ body {
   background-repeat: no-repeat;
 }
 #form-card {
-  background-image: url('../images/mask-cloud.png');
-  background: linear-gradient(#91caff, #91caff);
+  background: url('../images/mask-cloud.png'), linear-gradient(#91caff, #91caff);
+  /* background: url('../images/mask-cloud.png'); */
+  /* background: linear-gradient(#91caff, #91caff ); */
+  /* background-blend-mode: overlay; */
   background-position: center;
   background-repeat: no-repeat;
 }
