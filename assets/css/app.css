@@ -35,7 +35,7 @@ body {
   border: #e8d5bc 1px;
 }
 .border-brown {
-  border: var(--brown-color) 1px;
+  border: solid var(--brown-color) 1px;
 }
 /* hammer icon & list styling */
 .h-icon {
