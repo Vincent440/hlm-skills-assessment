@@ -7,6 +7,7 @@ body {
   --blue-color: #0361b8;
   --gold-color: #fffce9;
 }
+/* Font & Text classes */
 .m-font {
   font-family: 'Montserrat', sans-serif;
 }
@@ -25,21 +26,21 @@ body {
 .text-white {
   color: #ffffff;
 }
+/* Background & Border classes */
 .bg-blue {
   background-color: var(--blue-color);
   color: white;
 }
 .border-dark-gold {
-  border-color: #e8d5bc;
-  border-width: 1px;
+  border: #e8d5bc 1px;
 }
 .border-brown {
-  border-color: var(--brown-color);
-  border-width: 1px;
+  border: var(--brown-color) 1px;
 }
-.hammer-icon {
-  width: 1em;
-  height: 1em;
+/* hammer icon & list styling */
+.h-icon {
+  width: 1.5em;
+  height: 1.5em;
 }
 .check {
   background: url('../images/custom-list-check.png') no-repeat left 50%;
@@ -47,12 +48,12 @@ body {
   line-height: 2;
 }
 #form-heading {
-  /* #004E96 */
-  color:white;
+  color: white;
   font-weight: bold;
   font-size: 1.3em;
   text-shadow: 0px 2px 6px #004e96;
 }
+/* ID styles for backgrounds */
 #top-hero {
   background-image: url('../images/deck.png');
   background-position: center;
@@ -70,11 +71,10 @@ body {
 }
 #form-card {
   background: url('../images/mask-cloud.png'), linear-gradient(#91caff, #91caff);
-  /* background: url('../images/mask-cloud.png'); */
-  /* background: linear-gradient(#91caff, #91caff ); */
-  /* background-blend-mode: overlay; */
   background-position: center;
   background-repeat: no-repeat;
+  margin-top: 10px;
+  border: solid #707070 1px;
 }
 #footer {
   background-color: #22170f;
