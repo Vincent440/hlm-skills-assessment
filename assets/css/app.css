@@ -71,6 +71,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 1.5em 0;
 }
 #form-card {
   background: url('../images/mask-cloud.png'), linear-gradient(#91caff, #91caff);
