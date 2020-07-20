@@ -61,19 +61,20 @@ body {
 }
 #center-hero {
   background-image: url('../images/wood-bg.png');
+  background-size: cover;
   background-position: center;
-  background-repeat: repeat-y;
+  background-repeat: no-repeat;
 }
 #leads-form {
   background-image: url('../images/lead-form-background.png');
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 #form-card {
   background: url('../images/mask-cloud.png'), linear-gradient(#91caff, #91caff);
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-top: 10px;
+  background-position:center;
+  background-size: cover;
   border: solid #707070 1px;
 }
 #footer {
