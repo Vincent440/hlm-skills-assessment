@@ -57,6 +57,7 @@ body {
 #top-hero {
   background-image: url('../images/deck.png');
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 #center-hero {
